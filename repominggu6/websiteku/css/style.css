@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tengah {
+    text-align: righ;
+    width: 70px;
+    color: blue;
+}
+
+/*media Query*/
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li
+    {
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+
+.body h2 {
+    color: blue;
+}

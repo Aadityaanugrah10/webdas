@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama Lengkap..."/>
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..."/>
+        </p>
+        <p>
+            <label>Email</label>
+            <input type="email" name="email" value="Your Email..." />
+        </p>
+        <p>
+            <label>Password</label>
+            <input type="password" name="pasword" placeholder="Password..." />
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki </label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan </label>
+        </p>
+        <p>
+            <label>Agama</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Alamat Web</label>
+            <input type="url" name="name" placeholder="Masukkan url..."/>
+        </p>
+        <p>
+            <label>Tanggal Lahir</label>
+            <input type="date" name="tanggal" />
+        </p>
+        <p>
+            <label>Umur</label>
+            <input type="number" min="10" max="90" name="umur" />
+        </p>
+        <p>
+            <label>Biografi</label>
+            <textarea name="biografi"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
