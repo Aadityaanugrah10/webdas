@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Pengulangan while</title>
+</head>
+<body>
+    <script>
+        var ulangi = confirm("Apakah anda mau mengulang?");
+        var counter = 0;
+            while(ulangi){
+                for(let nilaiawal = 10; nilaiawal > 0; nilaiawal --) 
+            counter++;
+            ulangi = confirm("Apakah anda mau mengulang?");
+            }
+            document.write("Perulangan sudah dilakuakn sebanyak "+ counter +" kali");
+    </script>
+</body>
+</html>
